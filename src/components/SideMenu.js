@@ -63,7 +63,7 @@ const SideMenu = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="pages/widgets.html" className="nav-link">
                   <i className="nav-icon fas fa-th" />
                   <p>
@@ -71,7 +71,7 @@ const SideMenu = () => {
                     <span className="right badge badge-danger">New</span>
                   </p>
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item has-treeview">
                 <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-copy" />
