@@ -1,6 +1,5 @@
 
 import './App.css';
-<<<<<<< HEAD
 import Header from './components/Header';
 import SideMenu from './components/SideMenu';
 import Dashboard from './components/Dashboard';
@@ -8,17 +7,10 @@ import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
 import NotFound from './components/NotFound';
 import Layouts from './components/Layouts';
-=======
-import Header from './Header';
-import Menu from './Menu';
-import Dashboard from './Dashboard';
-import Footer from './Footer';
->>>>>>> 3fdcf9e33a5428e9add8a417d88f9fa09e38d8de
 
 function App() {
   return (
     <div className="wrapper">
-<<<<<<< HEAD
       {/* <Header />
       <SideMenu />
       <Dashboard />
@@ -45,12 +37,6 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes> */}
-=======
-      <Header/>
-      <Menu/>
-      <Dashboard/>
-      <Footer/>
->>>>>>> 3fdcf9e33a5428e9add8a417d88f9fa09e38d8de
     </div>
   );
 }
